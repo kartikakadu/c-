@@ -4,13 +4,13 @@
 // Console.WriteLine("my mother name is chanda");
 // Console.WriteLine("my father name is krushnarao");
 // Console.WriteLine("i completed my masters in computer science");
-
+//*******************************************************************************
 // string name = "kartika";
 // int birthdate = 13; 
 // Console.WriteLine(name);
 // Console.WriteLine(birthdate);        
 
-// //******************************************************************************************
+// //*****************************************************************************
 // string name ="kartika";
 // int age =20;
 // string city ="pune";
@@ -19,7 +19,7 @@
 // Console.WriteLine("my age is"+age);
 // Console.WriteLine("my city name is"+city);
 
-//************************************************************************************
+//*********************************************************************************
 //simple calculator
 
 // int a = 25;
@@ -33,7 +33,7 @@
 // Console.WriteLine("multiplication"+multiplication);
 // Console.WriteLine("division"+division);
 
-//*************************************************************************************
+//************************************************************************************
 //Square of given number
 
 // Console.Write("Enter the number");
@@ -56,26 +56,58 @@
 
 //**************************************************************************************
 //Find the largest number
-Console.Write("Enter the number1");
+// Console.Write("Enter the number1");
+// int num1=Convert.ToInt32(Console.ReadLine());
+
+// Console.Write("Enter the Number 2");
+// int num2=Convert.ToInt32(Console.ReadLine());
+
+// if(num1 > num2)
+// {
+//     Console.WriteLine("the number is larger" +num1);
+// }
+// else if(num2> num1)
+// {
+//     Console.WriteLine("the number is larger" + num2);
+// }
+// else{
+//     Console.WriteLine("Both numbers are equal");
+// }
+//****************************************************************
+//find the smallest number
+// Console.Write("enter number 1");
+// int num1=Convert.ToInt32(Console.ReadLine());
+// Console.Write("enter number 2");
+// int num2=Convert.ToInt32(Console.ReadLine());
+// if(num1<num2){
+//     Console.WriteLine("number1 is smaller");
+// }
+// else if(num2<num1){
+//     Console.WriteLine("number2 is smaller");
+// }
+// else{
+//     Console.WriteLine("both number are same");
+// }
+//***************************************************************************
+//find the largest number between 3 numbers
+/*Console.WriteLine("Enter number 1 ");
 int num1=Convert.ToInt32(Console.ReadLine());
-
-Console.Write("Enter the Number 2");
-int num2=Convert.ToInt32(Console.ReadLine());
-
-if(num1 > num2)
-{
-    Console.WriteLine("the number is larger" +num1);
+Console.WriteLine("Enter number 2 ");
+int num2= Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter number 3");
+int num3=Convert.ToInt32(Console.ReadLine());
+if(num1>num2 && num1>num3){
+Console.WriteLine("number 1 is largest");
 }
-else if(num2> num1)
+else if(num2>num1 && num2>num3)
 {
-    Console.WriteLine("the number is larger" + num2);
+    Console.WriteLine("number 2 is largest");
 }
 else{
-    Console.WriteLine("Both numbers are equal");
-}
+    Console.WriteLine("number 3 is largest");
+}*/
 
-
-
+//*********************************************************************************
 
 
 
