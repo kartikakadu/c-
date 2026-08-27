@@ -109,17 +109,35 @@ else{
 
 //*********************************************************************************
 //positive and negative number
-Console.Write("Enter a number");
-int num= Convert.ToInt32(Console.ReadLine());
-if(num>0){
-    Console.WriteLine("It is a positive number");
+// Console.Write("Enter a number");
+// int num= Convert.ToInt32(Console.ReadLine());
+// if(num>0){
+//     Console.WriteLine("It is a positive number");
+// }
+// else if(num<0){
+//     Console.WriteLine("It is a negative number");
+// }
+// else{
+//     Console.WriteLine("The number is zero");
+// }
+//***********************************************************************************
+//find the second largest number
+Console.Write("Enter number 1");
+int num1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter Number 2");
+int num2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter Number 3");
+int num3 = Convert.ToInt32(Console.ReadLine());
+if ((num1>num2 && num1<num3 )||(num1<num2 && num1>num3)) {
+    Console.WriteLine("number 1 is second largest number");
 }
-else if(num<0){
-    Console.WriteLine("It is a negative number");
+else if ((num2>num1 && num2<num3) || (num2<num1 && num2>num3)){
+    Console.WriteLine("number 2 is second largest number");
 }
 else{
-    Console.WriteLine("The number is zero");
+    Console.WriteLine("number 3 is second largest number");
 }
+
 
 
 
