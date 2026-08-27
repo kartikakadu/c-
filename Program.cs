@@ -108,7 +108,18 @@ else{
 }*/
 
 //*********************************************************************************
-
+//positive and negative number
+Console.Write("Enter a number");
+int num= Convert.ToInt32(Console.ReadLine());
+if(num>0){
+    Console.WriteLine("It is a positive number");
+}
+else if(num<0){
+    Console.WriteLine("It is a negative number");
+}
+else{
+    Console.WriteLine("The number is zero");
+}
 
 
 
