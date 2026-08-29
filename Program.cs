@@ -139,21 +139,30 @@ else{
 // }
 //**************************************************************************************
 //check whether the number is divisible by 3 & 5 
-Console.Write("Enter number 1");
-int num1= Convert.ToInt32(Console.ReadLine());
-if(num1%3==0 && num1%5==0){
-    Console.WriteLine("number is divisible by 3 & 5");
-}
-else if(num1%3==0){
-    Console.WriteLine("Number is Divisible by 3");
-}
-else if(num1 %5 ==0){
-    Console.WriteLine("Number is Divisible by 5");
+// Console.Write("Enter number 1");
+// int num1= Convert.ToInt32(Console.ReadLine());
+// if(num1%3==0 && num1%5==0){
+//     Console.WriteLine("number is divisible by 3 & 5");
+// }
+// else if(num1%3==0){
+//     Console.WriteLine("Number is Divisible by 3");
+// }
+// else if(num1 %5 ==0){
+//     Console.WriteLine("Number is Divisible by 5");
+// }
+// else{
+//     Console.WriteLine("Number is not divisble by 3 and 5");
+// }
+//*******************************************************************************************dotnet 
+//wap to check person is eligible for voting or not
+Console.Write("Enter age");
+int age = Convert.ToInt32(Console.ReadLine());
+if(age>=18){
+    Console.WriteLine("the person is eligible for voting");
 }
 else{
-    Console.WriteLine("Number is not divisble by 3 and 5");
+    Console.WriteLine("this person is not eligible for votting");
 }
-
 
 
 
