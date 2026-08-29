@@ -153,16 +153,37 @@ else{
 // else{
 //     Console.WriteLine("Number is not divisble by 3 and 5");
 // }
-//*******************************************************************************************dotnet 
+//*******************************************************************************************
 //wap to check person is eligible for voting or not
-Console.Write("Enter age");
-int age = Convert.ToInt32(Console.ReadLine());
-if(age>=18){
-    Console.WriteLine("the person is eligible for voting");
+// Console.Write("Enter age");
+// int age = Convert.ToInt32(Console.ReadLine());
+// if(age>=18){
+//     Console.WriteLine("the person is eligible for voting");
+// }
+// else{
+//     Console.WriteLine("this person is not eligible for votting");
+// }
+//***************************************************************************************************
+//program that shows grading system
+Console.Write("Enter Your Marks");
+int num = Convert.ToInt32(Console.ReadLine());
+if(num>=90 && num<=100)
+{
+    Console.WriteLine("Grade A");
+}
+else if(num>=75 && num<89){
+    Console.WriteLine("Grade B");
+}
+else if(num>=60 && num<=74){
+    Console.WriteLine("Grade C");
+}
+else if(num>=40 && num<=59){
+    Console.WriteLine("Grade D");
 }
 else{
-    Console.WriteLine("this person is not eligible for votting");
+    Console.WriteLine("FAIL");  
 }
+//**********************************************************************************************************
 
 
 
