@@ -122,22 +122,37 @@ else{
 // }
 //***********************************************************************************
 //find the second largest number
+// Console.Write("Enter number 1");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Enter Number 2");
+// int num2 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Enter Number 3");
+// int num3 = Convert.ToInt32(Console.ReadLine());
+// if ((num1>num2 && num1<num3 )||(num1<num2 && num1>num3)) {
+//     Console.WriteLine("number 1 is second largest number");
+// }
+// else if ((num2>num1 && num2<num3) || (num2<num1 && num2>num3)){
+//     Console.WriteLine("number 2 is second largest number");
+// }
+// else{
+//     Console.WriteLine("number 3 is second largest number");
+// }
+//**************************************************************************************
+//check whether the number is divisible by 3 & 5 
 Console.Write("Enter number 1");
-int num1 = Convert.ToInt32(Console.ReadLine());
-Console.Write("Enter Number 2");
-int num2 = Convert.ToInt32(Console.ReadLine());
-Console.Write("Enter Number 3");
-int num3 = Convert.ToInt32(Console.ReadLine());
-if ((num1>num2 && num1<num3 )||(num1<num2 && num1>num3)) {
-    Console.WriteLine("number 1 is second largest number");
+int num1= Convert.ToInt32(Console.ReadLine());
+if(num1%3==0 && num1%5==0){
+    Console.WriteLine("number is divisible by 3 & 5");
 }
-else if ((num2>num1 && num2<num3) || (num2<num1 && num2>num3)){
-    Console.WriteLine("number 2 is second largest number");
+else if(num1%3==0){
+    Console.WriteLine("Number is Divisible by 3");
+}
+else if(num1 %5 ==0){
+    Console.WriteLine("Number is Divisible by 5");
 }
 else{
-    Console.WriteLine("number 3 is second largest number");
+    Console.WriteLine("Number is not divisble by 3 and 5");
 }
-
 
 
 
