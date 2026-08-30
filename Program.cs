@@ -165,27 +165,63 @@ else{
 // }
 //***************************************************************************************************
 //program that shows grading system
-Console.Write("Enter Your Marks");
-int num = Convert.ToInt32(Console.ReadLine());
-if(num>=90 && num<=100)
-{
-    Console.WriteLine("Grade A");
+// Console.Write("Enter Your Marks");
+// int num = Convert.ToInt32(Console.ReadLine());
+// if(num>=90 && num<=100)
+// {
+//     Console.WriteLine("Grade A");
+// }
+// else if(num>=75 && num<89){
+//     Console.WriteLine("Grade B");
+// }
+// else if(num>=60 && num<=74){
+//     Console.WriteLine("Grade C");
+// }
+// else if(num>=40 && num<=59){
+//     Console.WriteLine("Grade D");
+// }
+// else{
+//     Console.WriteLine("FAIL");  
+// }
+//**********************************************************************************************************
+//Electicity unit usage 
+// Console.Write("Enter your Electricity Units");
+// int num= Convert.ToInt32(Console.ReadLine());
+// if(num>=0 && num<=100){
+//     Console.WriteLine("Low Usage");
+// }
+// else if (num>=101 && num<=300){
+//     Console.WriteLine("Medium Usage");
+// }
+// else{
+//     Console.WriteLine("High Usage");
+
+// }
+//*************************************************************************************************************
+//Find largest of 4 numbers
+Console.Write("Enter number 1");
+int num1=Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter number 2");
+int num2=Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter number 3");
+int num3 =Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter Number 4");
+int num4 = Convert.ToInt32(Console.ReadLine());
+if(num1>num2 && num1>num3 &&num1>num4){
+Console.WriteLine("num1 is largest number");
 }
-else if(num>=75 && num<89){
-    Console.WriteLine("Grade B");
+else if(num2>num1 && num2>num3 && num2>num4){
+Console.WriteLine("num2 is the largest number");
 }
-else if(num>=60 && num<=74){
-    Console.WriteLine("Grade C");
+else if(num3>num1 && num3>num2 && num3>num4){
+Console.WriteLine("num3 is the largest number");
 }
-else if(num>=40 && num<=59){
-    Console.WriteLine("Grade D");
+else if(num4>num1 && num4>num3 && num4>num3){
+Console.WriteLine("num4 is the largest number");
 }
 else{
-    Console.WriteLine("FAIL");  
+    Console.WriteLine("numbers are same");
 }
-//**********************************************************************************************************
-
-
 
 
 
