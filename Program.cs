@@ -199,29 +199,195 @@ else{
 // }
 //*************************************************************************************************************
 //Find largest of 4 numbers
-Console.Write("Enter number 1");
-int num1=Convert.ToInt32(Console.ReadLine());
-Console.Write("Enter number 2");
-int num2=Convert.ToInt32(Console.ReadLine());
-Console.Write("Enter number 3");
-int num3 =Convert.ToInt32(Console.ReadLine());
-Console.Write("Enter Number 4");
-int num4 = Convert.ToInt32(Console.ReadLine());
-if(num1>num2 && num1>num3 &&num1>num4){
-Console.WriteLine("num1 is largest number");
+// Console.Write("Enter number 1");
+// int num1=Convert.ToInt32(Console.ReadLine());
+// Console.Write("Enter number 2");
+// int num2=Convert.ToInt32(Console.ReadLine());
+// Console.Write("Enter number 3");
+// int num3 =Convert.ToInt32(Console.ReadLine());
+// Console.Write("Enter Number 4");
+// int num4 = Convert.ToInt32(Console.ReadLine());
+// if(num1>num2 && num1>num3 &&num1>num4){
+// Console.WriteLine("num1 is largest number");
+// }
+// else if(num2>num1 && num2>num3 && num2>num4){
+// Console.WriteLine("num2 is the largest number");
+// }
+// else if(num3>num1 && num3>num2 && num3>num4){
+// Console.WriteLine("num3 is the largest number");
+// }
+// else if(num4>num1 && num4>num3 && num4>num3){
+// Console.WriteLine("num4 is the largest number");
+// }
+// else{
+//     Console.WriteLine("numbers are same");
+// }
+//**********************************************************************************
+
+//***************************************Switch***************************************
+//Check whether its weeks days or not
+// Console.Write("Enter number from 1-7");
+// int day=Convert.ToInt32(Console.ReadLine());
+// switch (day)
+// {
+//  case 1:
+//  Console.WriteLine("Monday") ;
+//  break;
+//  case 2:
+//  Console.WriteLine("Tuesday") ;
+//  break;
+//   case 3;
+//  Console.WriteLine("Wednesday");
+//  break;
+//  case 4:
+//  Console.WriteLine("Thursday");
+//  break;
+//  case 5:
+//  Console.WriteLine("Friday");
+//break;
+//  case 6:
+//  Console.WriteLine("Saturday");
+//  break;
+//  case 7:
+//  Console.WriteLine("Sunday");
+//  break;
+
+//     default:
+//     Console.WriteLine("Invalid day");
+//     break;
+
+// }
+//************************************************************************************
+//check whether its month name or not
+/*Console.Write("Enter number 1-12");
+int month=Convert.ToInt32(Console.ReadLine());
+
+switch(month)
+{
+case 1:
+Console.WriteLine("January");
+break;
+case 2:
+Console.WriteLine("february");
+break;
+case 3:
+Console.WriteLine("march");
+break;
+case 4:
+Console.WriteLine("april");
+break;
+case 5:
+Console.WriteLine("may");
+break;
+case 6:
+Console.WriteLine("june");
+break;
+case 7:
+Console.WriteLine("july");
+break;
+case 8:
+Console.WriteLine("august");
+break;
+case 9:
+Console.WriteLine("september");
+break;
+case 10:
+Console.WriteLine("october");
+break;
+case 11:
+Console.WriteLine("november");
+break;
+case 12:
+Console.WriteLine("december");
+break;
+
+default:
+Console.WriteLine("invalid month");
+break;
+}*/
+//**********************************************************************
+//Write a program that displays food items
+/*
+Console.Write("Enter your choice");
+int food=Convert.ToInt32(Console.ReadLine());
+switch (food)
+{
+   case 1:
+   Console.WriteLine("You selected pizza");
+   break;
+   case 2:
+   Console.WriteLine("You Selected burger");
+   break;
+   case 3:
+   Console.WriteLine("You selected noodles");
+   break;
+   case 4:
+   Console.WriteLine("You selected manchurian");
+   break;
+   case 5:
+   Console.WriteLine("Thank You");
+   break;
+
+    default:
+    Console.WriteLine("please enter your choice");
+    break;
+
+}*/
+//********************************************************************************
+//write code to perform add, subtract,multiply,division
+/*
+Console.WriteLine("Enter first number");
+int num1 =Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter second number");
+int num2 =Convert.ToInt32(Console.ReadLine());
+Console.Write("enter operator (+,-,*,/): ");
+char op =Convert.ToChar(Console.ReadLine());
+
+
+switch (op)
+{
+    case '+' :
+    Console.WriteLine(num1+num2);
+    //add
+   break;
+   case '-':
+   Console.WriteLine(num1-num2);
+   //subtract
+   break;
+   case '*' :
+   Console.WriteLine(num1*num2);
+   //multiply
+   break;
+   case '/':
+   Console.WriteLine(num1/num2);
+   //divide
+   break;
+    default:
+    Console.WriteLine("please enter number");
+    break;
+}*/
+//*******************************************************************
+//**************************************while loop************************************
+//print number in descending order
+using System; 
+class Program{
+    static void Main()
+    {
+        int i=10;
+        while(i>=1){
+            Console.WriteLine(i);
+            i--;
+        }
+    }
 }
-else if(num2>num1 && num2>num3 && num2>num4){
-Console.WriteLine("num2 is the largest number");
-}
-else if(num3>num1 && num3>num2 && num3>num4){
-Console.WriteLine("num3 is the largest number");
-}
-else if(num4>num1 && num4>num3 && num4>num3){
-Console.WriteLine("num4 is the largest number");
-}
-else{
-    Console.WriteLine("numbers are same");
-}
+
+
+
+
+
+
+
+
 
 
 
