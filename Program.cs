@@ -369,7 +369,7 @@ switch (op)
 //*******************************************************************
 //**************************************while loop************************************
 //print number in descending order
-using System; 
+/*using System; 
 class Program{
     static void Main()
     {
@@ -379,8 +379,54 @@ class Program{
             i--;
         }
     }
-}
+}*/
+//*****************************************************************************
+//print number in ascending order
+/*using System;
+class Program{
+    static void Main()
+    {
+        int i=1;
+        while(i<=10){
+            Console.WriteLine(i);
+            i++;
+        }
+    }
+}*/
+//********************************************************************************
+//check number is even
+/*using System;
+class Program{
+    static void Main()
+    {
+        int i=2;
+        while(i<=20){
+            if(i%2==0)
+            {
+Console.WriteLine(i);
+            }
+i++;
 
+        }
+    }
+}*/
+//********************************************************************************************
+//for odd numbers
+using System;
+class Program{
+    static void Main(){
+int i=1;
+while (i<=20)
+{
+    if(i%2!=0){
+        Console.WriteLine(i);
+    }
+    i++;
+}
+    
+}
+}
+//*******************************************************************************************
 
 
 
