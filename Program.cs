@@ -486,7 +486,7 @@ Console.WriteLine("sum" +sum) ;
 }*/
 //*******************************************************************************
 //simply print number from 1to 10
-using System;
+/*using System;
 class Program{
     static void Main(){
         int i=1;
@@ -496,8 +496,58 @@ class Program{
          i++;
         }
     }
-}
+}*/
 //*********************************************************************************
+//************************************for loop*************************************
+//print numbers from 1 to 10
+/*using System;
+class Program{
+    static void Main(){
+
+    for (int i = 1; i <=10; i++)
+    {
+      Console.WriteLine(i);
+    }
+}
+}*/
+//**********************************************************************************
+//print numbers 10-1
+/*using System;
+class Program{
+    static void Main(){
+        for (int i = 10; i >=1; i--)
+        {
+        Console.WriteLine(i);   
+        }
+    }
+}*/
+//********************************************************************************
+//print even numbers using for loop
+/*using System;
+class Program{
+    static void Main(){
+        for( int i=2; i<=10; i+=2)
+        {
+            if(i%2==0){
+            Console.WriteLine(i);
+            }
+        }
+    }
+}*/
+//********************************************************************************
+//print some odd numbers
+using System;
+class Program{
+    static void Main(){
+        for (int i = 1; i<=10; i++)
+        {
+         if(i%2!=0)   {
+            Console.WriteLine(i);
+         }
+        }
+    }
+}
+
 
 
 
