@@ -412,7 +412,7 @@ i++;
 }*/
 //********************************************************************************************
 //for odd numbers
-using System;
+/*using System;
 class Program{
     static void Main(){
 int i=1;
@@ -425,10 +425,79 @@ while (i<=20)
 }
     
 }
-}
+}*/
 //*******************************************************************************************
+//table of 5
+/*using System;
+class Program{
+    static void Main(){
+        int i=1;
+        while (i<=10)
+        {
+         Console.WriteLine(5*i);
+         i++;
+        }
+        
+    }
 
-
+}*/
+//*********************************************************************************************
+//table of 6
+// using System;
+// class Program{
+// static void Main(){
+//     int i=1;
+//     while (i<=10)
+//     {
+//         Console.WriteLine(6*i);
+//         i++;
+//     }
+    
+// }
+// }
+//******************************************************************************
+//table of 7
+/*using System;
+class Program{
+    static void Main(){
+        int i=1;
+        while (i<=10)
+        {
+           Console.WriteLine(7*i) ;
+           i++;
+        }
+    }
+}*/
+//******************************************************************************
+//sum of all numbers 1 to 10 output 55
+/*using System;
+class Program
+{
+    static void Main(){
+        int i=1;
+         int sum=0;
+while (i<=10)
+{
+ sum=sum+i;
+ i++;   
+}
+Console.WriteLine("sum" +sum) ;
+    }
+}*/
+//*******************************************************************************
+//simply print number from 1to 10
+using System;
+class Program{
+    static void Main(){
+        int i=1;
+        while (i<=10)
+        {
+         Console.WriteLine(i); 
+         i++;
+        }
+    }
+}
+//*********************************************************************************
 
 
 
