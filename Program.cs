@@ -535,8 +535,8 @@ class Program{
     }
 }*/
 //********************************************************************************
-//print some odd numbers
-using System;
+//print odd numbers
+/*using System;
 class Program{
     static void Main(){
         for (int i = 1; i<=10; i++)
@@ -546,7 +546,197 @@ class Program{
          }
         }
     }
+}*/
+//************************************************************************
+//print table of 5 using for loop
+/*using System;
+class Program{
+    static void Main(){
+        for (int i =1; i<=10 ; i++)
+        {
+         Console.WriteLine(5*i); 
+        }
+    }
+}*/
+//************************************************************************
+//table of 6 using for loop
+/*using System;
+class Program
+{
+    static void Main(){
+    for (int i = 1; i<=6; i++)
+    {
+        Console.WriteLine(6*i);
+    }
 }
+}*/
+//*******************************************************************************
+//sum of numbers 1-10
+/*using System;
+class Program{
+    static void Main(){
+        int sum=0;
+        for(int i=1;i<=10;i++){
+         sum= sum+i;
+        }
+        Console.WriteLine(sum);
+    }
+}*/
+//********************************************************************************
+//count even numbers
+/*using System;
+class Program{
+    static void Main(){
+        int count =0;
+        for (int i = 1; i <=20; i++)
+        {
+          if(i%2==0) {
+            count++;
+          } 
+        }
+        Console.WriteLine(count);
+    }
+}*/
+//************************************************************************************
+//count odd numbers
+/*using System;
+class Program{
+    static void Main(){
+        int count=0;
+        for (int i = 1; i<=20; i++)
+        {
+           if(i%2!=0) {
+            count++;
+           }
+          
+        }
+         Console.WriteLine(count);
+    }
+}*/
+//**************************************************************************************
+//find largest max 1-20
+/*using System;
+class Program{
+    static void Main(){
+        int max=0;
+        for (int i = 1; i<=20; i++)
+        {
+          if(i>max) {
+            max=i;
+          } 
+        }
+        Console.WriteLine(max);
+    }
+}*/
+//*************************************************************************************
+//find smallest number
+/*using System;
+class Program{
+    static void Main(){
+        int min=1;
+        for (int i = 1; i<=20; i++)
+        {
+         if(i<min) {
+            min=i;
+         } 
+        
+        }
+         Console.WriteLine(min);
+    }
+}*/
+//************************************************************************************
+//factorial of 5
+/*using System;
+class Program{
+    static void Main(){
+        int fact =1;
+        for (int i = 1; i<=5; i++)
+        {
+          fact=fact*i;  
+        }
+        Console.WriteLine(fact);
+    }
+}*/
+//*********************************************************************************
+//factorial of 7 
+/*using System;
+class Program{
+    static void Main(){
+        int fact=1;
+        for (int i = 1; i<=7; i++)
+        {
+           fact=fact*i; 
+        }
+        Console.WriteLine(fact);
+    }   
+}*/
+//************************************************************************************
+//print square of numbers from 1-10
+/*using System;
+class Program{
+    static void Main(){
+        for (int i = 1; i<=10; i++)
+        {
+           Console.WriteLine(i*i) ;
+        }
+    }
+}*/
+//*************************************************************************************
+//square of numbers 1-20
+/*using System;
+class Program{
+    static void Main(){
+        for (int i = 1; i<=20; i++)
+        {
+           Console.WriteLine(i*i);
+        }
+    }
+}*/
+//***********************************************************************************
+//print table of 3 from 1-20
+/*using System;
+class Program{
+    static void Main(){
+        for (int i = 1; i<=20; i++)
+        {
+          if (i%3==0)
+          {
+            Console.WriteLine(i);
+          }  
+        }
+    }
+}*/
+//***********************************************************************************
+//table of 5 from 1-20
+using System;
+class Program
+{
+    static void Main(){
+        for (int i = 1; i<=20; i++)
+        {
+          if(i%5==0)  {
+          Console.WriteLine(i);  
+          }
+        }
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
