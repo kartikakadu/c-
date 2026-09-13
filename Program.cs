@@ -708,7 +708,7 @@ class Program{
 }*/
 //***********************************************************************************
 //table of 5 from 1-20
-using System;
+/*using System;
 class Program
 {
     static void Main(){
@@ -720,11 +720,162 @@ class Program
         }
         
     }
+}*/
+//***************************************************************************************
+//Print numbers from 1 to 50 that are divisible by 3.
+/*using System;
+class Program{
+    static void Main(){
+        for (int i = 1; i<=50; i++)
+        {
+          if (i%3==0)
+          {
+            Console.WriteLine(i);
+          }
+        }
+    }
+}*/
+//*****************************************************************************************
+//Print numbers from 1 to 50 that are divisible by both 3 and 5.
+/*using System;
+class Program{
+    static void Main(){
+        for (int i = 1; i<=50; i++)
+        {
+          if (i%3==0 && i%5==0)
+          {
+            Console.WriteLine(i);
+          }  
+        }
+    }
+}*/
+//*******************************************************************************************
+//Find the sum of even numbers from 1 to 50.
+/*using System;
+class Program{
+    static void Main(){
+        int sum=0;
+        for (int i = 1; i<=50; i++)
+        {
+            if (i%2==0)
+            {
+            sum=sum+i;     
+            }
+        }
+        Console.WriteLine(sum);
+    }
+}*/
+//*******************************************************************************************
+//Find the sum of odd numbers from 1 to 50.
+/*using System;
+class Program
+{
+    static void Main(){
+        int sum=0;
+        for (int i = 1; i<=50; i++)
+        {
+           if(i%2!=0) {
+            sum=sum+i;
+           } 
+        }
+        Console.WriteLine(sum);
+    }
+}*/
+//***********************************************************************************************
+//Count numbers divisible by 5 from 1 to 100.
+/*using System;
+class Program{
+ static void Main(){
+    int count =0;
+ 
+ for (int i = 1; i<=100; i++)
+ {
+   if (i%5==0)
+   {
+    count ++;
+   } 
+ }
+ Console.WriteLine(count);
 }
-
-
-
-
+}*/
+//*******************************************************************************************
+//Print the reverse table of 7 (10 × 7 down to 1 × 7)
+/*using System;
+class Program{
+    static void Main(){
+        for (int i = 10; i>=1; i--)
+        {
+            Console.WriteLine(i*7);  
+        }
+    }
+}*/
+//******************************************************************************************
+//Find the factorial of a number entered by the user
+/*using System;
+class Program{
+    static void Main(){
+        Console.WriteLine("enter a number:");
+       int n= Convert.ToInt32(Console.ReadLine());
+       int fact=1;
+       for (int i = n; i>=1; i--)
+       {
+        fact=fact*i;
+       }
+      Console.WriteLine("factorial is:" + fact);
+    
+}
+}*/
+//*******************************************************************************************
+//Print the squares of even numbers from 1 to 20. 
+/*using System;
+class Program{
+    static void Main(){
+        for (int i = 1; i<=20; i++)
+        {
+         if (i%2==0)
+         {
+            Console.WriteLine(i*i);
+         }   
+        }
+    }
+}*/
+//*********************************************************************************************
+//Find the largest number from 1 to 100 that is divisible by 7. 
+/*using System;
+class Program{
+    static void Main(){
+        int largest=0;
+        for (int i = 1; i<=100; i++)
+        {
+            if (i%7==0)
+            {
+                largest=i;
+            }
+        }
+        Console.WriteLine("the largest number is" + largest);
+    }
+}*/
+//**********************************************************************************************
+//10.	Print this pattern: 
+/*                   *
+                     **
+                    ***
+                    ****
+                    *****                                                     */
+using System;
+class Program{
+    static void Main(){
+        for (int i = 1; i<=4; i++)
+        {
+            for (int j=1; j<=i; j++)
+            {
+              Console.Write("*"); 
+            }
+            Console.WriteLine();
+        }
+    }
+}
+//****************************************************************************************************
 
 
 
