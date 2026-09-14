@@ -862,7 +862,7 @@ class Program{
                     ***
                     ****
                     *****                                                     */
-using System;
+/*using System;
 class Program{
     static void Main(){
         for (int i = 1; i<=4; i++)
@@ -874,19 +874,97 @@ class Program{
             Console.WriteLine();
         }
     }
-}
+}*/
 //****************************************************************************************************
+/* *****
+****
+***
+**
+*                                                                  */
 
 
+/*using System;
+class Program{
+    static void Main(){
+        for (int i = 5; i>=1; i--)
+        {
+           for (int j= 1;j<=i; j++)
+           {
+            Console.Write("*");
+           } 
+           Console.WriteLine();
+        }
+        
+    }
+}
+*/
+//********************************************************************************
+/*     1
+       12
+       123
+       1234
+       12345                       */
 
 
+/*using System;
+class Program{
+    static void Main(){
+        for (int i = 1; i<=5; i++)
+       {
+        
+        for (int j = 1; j<=i; j++)
+        {
+         Console.Write(j); 
+        }
+        Console.WriteLine();
+       }
+       
+    }
+}*/
+//*******************************************************************************
+/*              1
+                22
+                333
+                4444
+                55555                */
 
+/*using System;
+class Program{
+    static void Main(){
+        for (int i = 1; i<=5; i++)
+        {
+          for (int j = 1; j<=i; j++)
+          {
+            Console.Write(i);
+          }  
+     Console.WriteLine();
+        }
+         
+    }
+}*/
+//***********************************************************************************************
+ /*     
+            1
+           23
+           456
+           78910                                                 */
 
-
-
-
-
-
+using System;
+class Program{
+    static void Main(){
+        int num=1;
+        for (int i = 1; i<=4; i++)
+        {
+        for (int j = 1; j<=i; j++)
+        {
+          Console.Write(num);  
+          num++;
+        }
+         Console.WriteLine();
+        }
+    }   
+}
+//********************************************************************************************
 
 
 
